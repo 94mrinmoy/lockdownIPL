@@ -1,0 +1,25 @@
+{
+    "name" : "Lockdown IPL",
+    "short_name" : "Lockdown IPL",
+    "start_url" : "/",
+    "display" : "standalone",
+    "background_color" : "rgb(187, 213, 216)",
+    "theme_color": "#33ccff", 
+    "description" : "This is a to track lockdown IPL tournament.",
+    "icons":[
+            {
+                "src" : "G90.png",
+                "sizes" : "100x100"
+            },
+            {
+                "src" : "G.png",
+                "sizes" : "192x192"
+            },
+            {
+                "src" : "G.png",
+                "sizes" : "512x512"
+            }
+    ]
+
+
+}
