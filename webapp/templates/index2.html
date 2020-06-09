@@ -99,6 +99,15 @@ h1,h2,h3,h4,h5,h6 {
 		background:$color-form-highlight;
 	}
 }
+.table-img11 {
+	display:absolute;
+	width:90%;
+	/* background:#000080; */
+	padding:($half-spacing-unit * 1.5) 0;
+  border-radius:  10px;
+  /* left:10px; */
+}
+
 
 .table-data, .header__item {
 	flex: 1 1 20%;
@@ -155,7 +164,7 @@ h1,h2,h3,h4,h5,h6 {
 <!-- <script>
     import {MDCIconButtonToggle} from '@material/icon-button';
    const iconToggle = new MDCIconButtonToggle(document.querySelector('#add-to-favorites'));</script> -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
  </head>
  <!-- <body oncontextmenu="return false;">				 -->
 <body>	
@@ -183,10 +192,11 @@ h1,h2,h3,h4,h5,h6 {
     </div> -->
 
     <!-- <div class="container"> -->
-      <center><b>Lockdown IPL Fixtures<br>
-        <a class="btn btn-primary" href="/points">Points Table</a>
+      <center><b><a class="btn btn-primary" href="/points">Points Table</a><br>
+        Lockdown IPL Fixtures
       </b>
       <div class="table">
+        <div class="table-data"><img class="table-img11" src="{% static "playoffs.png" %}"></div> 
         <div class="table-header">
           <div class="header__item"><a id="name" class="filter__link" href="#">Match No</a></div>
           <div class="header__item"><a id="wins" class="filter__link filter__link--number" href="#">Team 1</a></div>
@@ -216,7 +226,7 @@ h1,h2,h3,h4,h5,h6 {
       <script>
       if('serviceWorker' in navigator) {
           navigator.serviceWorker
-                   .register("{% static "sw.js" %}")
+          .register("{% url "sw.js" %}")
                    .then(function() { console.log("Service Worker Registered"); });
         }
       </script>

@@ -1,8 +1,8 @@
-Team,Owner,Matches,Runs,Wickets
-CSK,Soumik,2,113,11
-KKR,Sushanta,2,74,10
-KXI,Santanu,2,49,5
-MI,Sagnik,2,113,9
-RCB,Mrinmoy,1,30,6
-RR,Anirbaan,1,51,2
-SRH,Debayan,2,59,10
+Team,Owner,Matches,Runs,Wickets,RunsGiven,WicketsFallen
+CSK,Soumik,6,306,31,222,22
+KKR,Sushanta,6,246,38,190,27
+KXI,Santanu,6,109,15,288,48
+MI,Sagnik,6,267,18,240,23
+RCB,Mrinmoy,6,236,40,149,23
+RR,Anirbaan,6,214,34,261,40
+SRH,Debayan,6,210,34,238,27
